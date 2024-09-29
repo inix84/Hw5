@@ -41,11 +41,10 @@ public class Main {
         } else if (deliveryDistance >= 60 && deliveryDistance < 100) {
             System.out.println("Дистанция от офиса до адреса клиента составляет: " + deliveryDistance +
                     " км. Потребуется 3 дня");
-        }
-        else {
+        } else {
             System.out.println("Дистанция от офиса до адреса клиента составляет: " + deliveryDistance +
-                " км. Доставки нет");
-            }
+                    " км. Доставки нет");
+        }
         System.out.println();
         System.out.println("Задача 5. Про номера месяца:");
         int monthNumber = 55; // проверяемый месяц
@@ -53,29 +52,26 @@ public class Main {
             case 1:
             case 2:
             case 12:
-                System.out.println(monthNumber+ "й месяц - это зима");
+                System.out.println(monthNumber + "й месяц - это зима");
                 break;
             case 3:
             case 4:
             case 5:
-                System.out.println(monthNumber+ "й месяц - это весна");
+                System.out.println(monthNumber + "й месяц - это весна");
                 break;
             case 6:
             case 7:
             case 8:
-                System.out.println(monthNumber+ "й месяц - это лето");
+                System.out.println(monthNumber + "й месяц - это лето");
                 break;
             case 9:
             case 10:
             case 11:
-                System.out.println(monthNumber+ "й месяц - это осень");
+                System.out.println(monthNumber + "й месяц - это осень");
                 break;
             default:
                 System.out.println("Неверно введен номер месяца.");
         }
-
-
-
 
 
     }
